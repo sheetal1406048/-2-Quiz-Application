@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./photos/icon.png">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/front.css">
+    <title>QUIZ</title>
+      
+
+</head>
+<body>
+
+    <!---header part-->
+    <section>
+        <div class="header-container">
+            <div class = "logo"><img src="../photos/icon.png" alt="logo"></div>
+            <div class="course-title"><h3>Introduction to Electronics</h3></div>
+            <div class="course-title"><h4>EEE 101</h4></div>
+    </section>
+    
+    <!--Body Part-->
+    <section>
+        <div class="body-container">
+            <div class = "form-container">
+                <div class = "form-heading">
+                    <h2>Enter Your Details to Start the Test</h2>
+                </div>
+
+                <form>
+                    <label for="f-name"><h3>First Name</h3></label> 
+                    <input type="text" id = "f-name" class = "form-name" required> <br>
+
+                    <label for="l-name"><h3>Last Name</h3></label> 
+                    <input type="text" id = "l-name"  class = "form-name" required> <br>
+                    
+                    
+                    <label for="mail"><h3>Email</h3></label> 
+                    <input type="email" id = "mail" class = "form-name" required> <br>
+
+                    <label for="radio" id = "radio-label"><h3>Select the Difficulty Level</h3></label><br>
+                    <div class = "radio-container">
+                        <div class="options">
+                            <label for = "easy">Easy</label>
+                            <input type="radio" name = "difFiculty" id = "easy" value="easy" >
+                        </div>
+                        <div class="options">
+                            <label for="hard">Hard</label>
+                            <input type="radio" name = "difFiculty" id = "hard" value="hard" checked>
+                        </div> 
+                    </div>
+                    <br><br>
+                    <button class="btn" id = "start-quiz">
+                        <h2>START</h2>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src = "./js/index.js"></script>
+  
+    
+</body>
+</html>

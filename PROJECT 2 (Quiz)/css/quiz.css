@@ -1,0 +1,68 @@
+.countdown{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+/*Countdown CSS Code*/
+.remaining-time{
+    text-align: center;
+    border :2px solid black;
+    padding:10px;
+   
+}
+
+.remaining-time:hover{
+    transition: all .5s;
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+/*Quiz*/
+
+
+/*Quiz Questions*/
+
+.question h3{
+    padding:10px;
+    margin:auto;
+    background:black;
+    color:white;
+    border-radius:10px;
+}
+
+.question h3:hover{
+    transition: .3s;
+    color:bisque;
+    cursor: pointer;
+}
+
+
+/*QUiz Options*/
+
+.quiz-option{
+    display: block;
+    width:100%;
+    text-align:left;
+    
+    padding:10px;
+    border-radius:4px;
+    color:white;
+    background-color:gray;
+}
+
+.quiz-option:hover{
+    transition: all 1s;
+    color:bisque;
+
+    
+}                 
+
+.options:hover{
+    transition: all 1s;
+    
+}
+
+
+
+

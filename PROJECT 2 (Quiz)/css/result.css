@@ -1,0 +1,48 @@
+
+
+
+.show-score{
+    display: grid;
+    grid-template-columns: 40% auto;
+    margin-top:20px;
+}
+
+.score-text h2{
+    background:black;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+.score{
+
+text-align: center;
+padding:10px;
+color:green;
+}
+
+.block-to-inline{
+    display:inline;
+}
+
+
+/*Reexam BUTTON*/
+.exam-reset{
+    border:2px solid black;
+    margin:20px auto;
+    width:50%;
+    padding:10px;
+    text-align: center;
+    background-color: rgb(43, 41, 41);;
+    border-radius: 4px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.exam-reset:hover{
+    transition: all 1s;
+    background-color: black;
+}
